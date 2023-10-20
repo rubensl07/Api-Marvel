@@ -1,0 +1,98 @@
+h1,h2,p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(241, 241, 241);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 25, 25);
+}
+header{
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    background-image: url(./img/como-comecar-a-ler-hqs-da-marvel-capa-1280x720.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header input{
+    height: 50%;
+    width: 60%;
+    font-size: larger;
+    padding: .5rem;
+    outline: none;
+    border-radius: 20%;
+}
+main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    height: 70%;
+    width: 70%;
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 5px 5px 37px 17px #000000; 
+    box-shadow: 16px 16px 20px #000;
+    border-radius: 5%;
+}
+.right{
+    width: 60%;
+    padding: 2%;
+}
+.vulgo{
+    font-size: 80px;
+}
+.bio{
+    font-size: 1rem;
+    margin-top: 8rem;
+}
+footer{
+    margin-left: 40%;
+    height: 20%;
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: end;
+}
+.comics{
+    display: flex;
+    flex-direction: row;
+
+}
+.comic{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.book{
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 30%;
+}
